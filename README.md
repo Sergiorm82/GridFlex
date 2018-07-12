@@ -5,6 +5,7 @@ Recuerden las propiedades para Grid y para Flex.
 ## [Grid](https://www.w3schools.com/css/css_grid.asp)
 
 + display
++ grid-template-columns
 + grid-column-gap
 + grid-row-gap
 + grid-gap
@@ -24,8 +25,8 @@ Recuerden las propiedades para Grid y para Flex.
 
 ---
 
-![](Practica.png?raw=true)
+![](img1.png?raw=true)
 
 ---
 
-![Alt text](Practica.png "Title")
+![](img2.png?raw=true)
