@@ -28,4 +28,4 @@ Recuerden las propiedades para Grid y para Flex.
 
 ---
 
-![Alt text](Practica.png?raw=true "Title")
+![Alt text](Practica.png "Title")
