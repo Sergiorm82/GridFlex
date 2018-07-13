@@ -1,0 +1,41 @@
+body{
+	color: black;	
+	text-align: center;
+} 
+.contenido{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 200px;
+	grid-gap:  30px;
+}
+.index{
+	border: 1px solid red;
+	background: lightblue;
+	padding:80px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.primer {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.especial{ 
+	grid-gap:  30px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.Interno{
+	border: 1px solid red;
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contenido2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: 200px;
+	grid-gap:  30px;
+}
