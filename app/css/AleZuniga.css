@@ -1,38 +1,96 @@
 .grid-container {
-  display: grid;
-  grid-gap: 10px;
-  background-color: white;
-  padding: 10px;
+	display: grid;
+	grid-gap: 10px;
+	background-color: white;
+	padding: 10px;
 }
 
 .grid-container div {
-  background-color: turquoise;
-  font-size: 20px;
+	background-color: turquoise;
+	font-size: 20px;
 }
 
 
 .grid1 {
-	  grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto auto;
 }
 
 .grid2 {
-	  grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto;
+}
+
+.grid3 {
+	grid-template-columns: auto auto auto;
+}
+
+.grid4 {
+	grid-template-columns: auto auto auto auto;
+	background-color: turquoise !important; 
+
 }
 
 .item1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  height: 250px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	height: 250px;
 }
 
-.item5 {
+.item5, .item12, .item16 {
 	height: 150px;
+}
+
+.item10{
+	background-color: teal !important;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-template-columns: auto auto auto auto;
+}
+
+.item12 {
+	grid-template-columns: auto auto;
+}
+
+.item11_1 {
+	background-color: pink !important;
+	height: 50px;
+}
+
+.grid3_div {
+	background-color: pink !important;
+	grid-row-start: 1;
+	grid-row-end: 10;
+}
+
+.grid4_div {
+	background-color: Goldenrod !important;
+}
+
+.item20 {
+	background-color: coral !important;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	height: 250px;
 }
 
 .align-text {
 	display: flex;
- 	justify-content: center;
- 	align-items: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.title_featured {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	height: 20px;
+	background-color: teal !important; 
+}
+
+.title_videos {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	height: 20px;
 }
