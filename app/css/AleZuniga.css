@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container div {
+  background-color: turquoise;
+  font-size: 20px;
+}
+
+
+.grid1 {
+	  grid-template-columns: auto auto auto auto;
+}
+
+.grid2 {
+	  grid-template-columns: auto auto auto;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: 250px;
+}
+
+.item5 {
+	height: 150px;
+}
+
+.align-text {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
