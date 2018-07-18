@@ -1,6 +1,6 @@
 # GridFlex
 
-Recuerden las propiedades para Grid y para Flex.
+Recuerden las propiedades para Grid y para Flex.123
 
 ## [Grid](https://www.w3schools.com/css/css_grid.asp)
 
